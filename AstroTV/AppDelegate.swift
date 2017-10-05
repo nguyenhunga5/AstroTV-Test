@@ -8,6 +8,13 @@
 
 import UIKit
 import CoreData
+import FBSDKCoreKit
+import FBSDKLoginKit
+import GoogleSignIn
+import AWSCore
+import AWSCognito
+import AWSS3
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +24,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FBSDKLoginButton.superclass()
+        GIDSignInButton.superclass()
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        GIDSignIn.sharedInstance().clientID = "385515105493-2lclsh9fflo9pm1u2h6k3fs2kjbalmmm.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().signInSilently()
+        
+        
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        let handler = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options) ||
+            GIDSignIn.sharedInstance().handle(url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String , annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+        return handler
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -88,6 +111,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
 }
 

@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A33EAA71F853B4E000BCAA2 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAA51F853B4E000BCAA2 /* AWSCore.framework */; };
+		1A33EAAA1F853B61000BCAA2 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAA51F853B4E000BCAA2 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A33EAAB1F853B61000BCAA2 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAA61F853B4E000BCAA2 /* AWSS3.framework */; };
+		1A33EAAC1F853B61000BCAA2 /* AWSS3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAA61F853B4E000BCAA2 /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A33EAAF1F8541C0000BCAA2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAAD1F8541BF000BCAA2 /* FBSDKCoreKit.framework */; };
+		1A33EAB01F8541C0000BCAA2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAAE1F8541BF000BCAA2 /* FBSDKLoginKit.framework */; };
+		1A33EAB21F854545000BCAA2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAB11F854544000BCAA2 /* Bolts.framework */; };
+		1A33EAB41F8546D5000BCAA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A33EAB31F8546D5000BCAA2 /* GoogleService-Info.plist */; };
+		1A33EAB81F854809000BCAA2 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAB51F854809000BCAA2 /* GoogleSignIn.framework */; };
+		1A33EAB91F854809000BCAA2 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAB61F854809000BCAA2 /* GoogleSignInDependencies.framework */; };
+		1A33EABF1F854AAD000BCAA2 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAB51F854809000BCAA2 /* GoogleSignIn.framework */; };
+		1A33EAC11F854AAD000BCAA2 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAB61F854809000BCAA2 /* GoogleSignInDependencies.framework */; };
+		1A33EAC31F854AAD000BCAA2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAB11F854544000BCAA2 /* Bolts.framework */; };
+		1A33EAC51F854AAD000BCAA2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAAD1F8541BF000BCAA2 /* FBSDKCoreKit.framework */; };
+		1A33EAC71F854AAD000BCAA2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33EAAE1F8541BF000BCAA2 /* FBSDKLoginKit.framework */; };
+		1A5BB9621F839E3B00C3C98B /* ATVChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BB9611F839E3B00C3C98B /* ATVChannelTableViewCell.swift */; };
+		1A5BB9641F83DBFC00C3C98B /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BB9631F83DBFC00C3C98B /* UIImageViewExt.swift */; };
+		1A8B18AD1F854CB6001D5DDA /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A33EABB1F854825000BCAA2 /* FacebookSDKStrings.bundle */; };
+		1A8B18AE1F854CB6001D5DDA /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A33EAB71F854809000BCAA2 /* GoogleSignIn.bundle */; };
+		1A8B18B21F855038001D5DDA /* AWSAuthUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B18AF1F855038001D5DDA /* AWSAuthUI.framework */; };
+		1A8B18B31F855038001D5DDA /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B18B01F855038001D5DDA /* AWSCognito.framework */; };
+		1A8B18B41F855038001D5DDA /* AWSCognitoAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B18B11F855038001D5DDA /* AWSCognitoAuth.framework */; };
+		1A8B18B51F855043001D5DDA /* AWSAuthUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B18AF1F855038001D5DDA /* AWSAuthUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A8B18B61F855043001D5DDA /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B18B01F855038001D5DDA /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A8B18B71F855043001D5DDA /* AWSCognitoAuth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B18B11F855038001D5DDA /* AWSCognitoAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A8B18B91F855189001D5DDA /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B18B81F855189001D5DDA /* AWSAuthCore.framework */; };
+		1A8B18BA1F855193001D5DDA /* AWSAuthCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B18B81F855189001D5DDA /* AWSAuthCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A8B18BC1F8553A0001D5DDA /* ATVLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B18BB1F8553A0001D5DDA /* ATVLoginViewController.swift */; };
+		1A8B18BE1F855764001D5DDA /* FacebookProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B18BD1F855764001D5DDA /* FacebookProvider.swift */; };
+		1A8B18C01F8563E8001D5DDA /* GoogleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B18BF1F8563E8001D5DDA /* GoogleProvider.swift */; };
+		1A8B18C21F85D7F4001D5DDA /* ATVFavoritesUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B18C11F85D7F4001D5DDA /* ATVFavoritesUtils.swift */; };
+		1A9161B81F82BEFE004F6B0E /* ATVLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9161B71F82BEFE004F6B0E /* ATVLoadingView.xib */; };
+		1A9161BA1F833845004F6B0E /* ATVResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9161B91F833845004F6B0E /* ATVResponse.swift */; };
+		1A9161BC1F838020004F6B0E /* ATVEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9161BB1F83801F004F6B0E /* ATVEvent.swift */; };
+		1A9161BE1F83824F004F6B0E /* ATVVernacularData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9161BD1F83824F004F6B0E /* ATVVernacularData.swift */; };
+		1A9161C01F838290004F6B0E /* ATVContentImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9161BF1F838290004F6B0E /* ATVContentImage.swift */; };
+		1A9161C21F838474004F6B0E /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9161C11F838474004F6B0E /* DateExt.swift */; };
 		1AB0D8A01F8283DA000A20E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D89F1F8283DA000A20E6 /* AppDelegate.swift */; };
 		1AB0D8A21F8283DA000A20E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8A11F8283DA000A20E6 /* ViewController.swift */; };
 		1AB0D8A51F8283DA000A20E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB0D8A31F8283DA000A20E6 /* Main.storyboard */; };
@@ -15,6 +52,21 @@
 		1AB0D8AD1F8283DA000A20E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB0D8AB1F8283DA000A20E6 /* LaunchScreen.storyboard */; };
 		1AB0D8B81F8283DA000A20E6 /* AstroTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8B71F8283DA000A20E6 /* AstroTVTests.swift */; };
 		1AB0D8C31F8283DA000A20E6 /* AstroTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8C21F8283DA000A20E6 /* AstroTVUITests.swift */; };
+		1AB0D8D51F828AF6000A20E6 /* ATVBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8D41F828AF6000A20E6 /* ATVBaseViewController.swift */; };
+		1AB0D8D71F828B0B000A20E6 /* ATVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8D61F828B0B000A20E6 /* ATVView.swift */; };
+		1AB0D8D91F828B2E000A20E6 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8D81F828B2E000A20E6 /* UIViewExt.swift */; };
+		1AB0D8DB1F828B3A000A20E6 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8DA1F828B3A000A20E6 /* StringExt.swift */; };
+		1AB0D8DF1F828E14000A20E6 /* UIView+UIViewShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8DE1F828E14000A20E6 /* UIView+UIViewShadow.m */; };
+		1AB0D8E11F8293D1000A20E6 /* ATVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0D8E01F8293D1000A20E6 /* ATVButton.swift */; };
+		1ACFED051F8298BE00160511 /* ATVChannelExtRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED021F8298BD00160511 /* ATVChannelExtRef.swift */; };
+		1ACFED061F8298BE00160511 /* ATVLinearOttMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED031F8298BD00160511 /* ATVLinearOttMapping.swift */; };
+		1ACFED071F8298BE00160511 /* ATVChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED041F8298BE00160511 /* ATVChannel.swift */; };
+		1ACFED091F82998900160511 /* ATVDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED081F82998900160511 /* ATVDefinitions.swift */; };
+		1ACFED0B1F829AFE00160511 /* ATVBaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED0A1F829AFE00160511 /* ATVBaseEntity.swift */; };
+		1ACFED0D1F829BD700160511 /* ATVJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED0C1F829BD700160511 /* ATVJSON.swift */; };
+		1ACFED0F1F82A4C700160511 /* ATVNetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED0E1F82A4C700160511 /* ATVNetworkUtils.swift */; };
+		1ACFED131F82B22000160511 /* ATVChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED121F82B22000160511 /* ATVChannelListViewController.swift */; };
+		1ACFED151F82B4C100160511 /* ATVLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFED141F82B4C100160511 /* ATVLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +86,52 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A1FDB7F1F8535DB00F474F7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A8B18BA1F855193001D5DDA /* AWSAuthCore.framework in Embed Frameworks */,
+				1A8B18B51F855043001D5DDA /* AWSAuthUI.framework in Embed Frameworks */,
+				1A8B18B61F855043001D5DDA /* AWSCognito.framework in Embed Frameworks */,
+				1A8B18B71F855043001D5DDA /* AWSCognitoAuth.framework in Embed Frameworks */,
+				1A33EAAC1F853B61000BCAA2 /* AWSS3.framework in Embed Frameworks */,
+				1A33EAAA1F853B61000BCAA2 /* AWSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A33EAA51F853B4E000BCAA2 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = AstroTV/frameworks/AWSCore.framework; sourceTree = "<group>"; };
+		1A33EAA61F853B4E000BCAA2 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = AstroTV/frameworks/AWSS3.framework; sourceTree = "<group>"; };
+		1A33EAAD1F8541BF000BCAA2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = AstroTV/frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1A33EAAE1F8541BF000BCAA2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = AstroTV/frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1A33EAB11F854544000BCAA2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = AstroTV/frameworks/Bolts.framework; sourceTree = "<group>"; };
+		1A33EAB31F8546D5000BCAA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "AstroTV/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1A33EAB51F854809000BCAA2 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = AstroTV/frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		1A33EAB61F854809000BCAA2 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = AstroTV/frameworks/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		1A33EAB71F854809000BCAA2 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = AstroTV/frameworks/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		1A33EABB1F854825000BCAA2 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = AstroTV/frameworks/FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		1A5BB9611F839E3B00C3C98B /* ATVChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVChannelTableViewCell.swift; sourceTree = "<group>"; };
+		1A5BB9631F83DBFC00C3C98B /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		1A8B18AF1F855038001D5DDA /* AWSAuthUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAuthUI.framework; path = AstroTV/frameworks/AWSAuthUI.framework; sourceTree = "<group>"; };
+		1A8B18B01F855038001D5DDA /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = AstroTV/frameworks/AWSCognito.framework; sourceTree = "<group>"; };
+		1A8B18B11F855038001D5DDA /* AWSCognitoAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoAuth.framework; path = AstroTV/frameworks/AWSCognitoAuth.framework; sourceTree = "<group>"; };
+		1A8B18B81F855189001D5DDA /* AWSAuthCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAuthCore.framework; path = AstroTV/frameworks/AWSAuthCore.framework; sourceTree = "<group>"; };
+		1A8B18BB1F8553A0001D5DDA /* ATVLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVLoginViewController.swift; sourceTree = "<group>"; };
+		1A8B18BD1F855764001D5DDA /* FacebookProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookProvider.swift; sourceTree = "<group>"; };
+		1A8B18BF1F8563E8001D5DDA /* GoogleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleProvider.swift; sourceTree = "<group>"; };
+		1A8B18C11F85D7F4001D5DDA /* ATVFavoritesUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVFavoritesUtils.swift; sourceTree = "<group>"; };
+		1A9161B71F82BEFE004F6B0E /* ATVLoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATVLoadingView.xib; sourceTree = "<group>"; };
+		1A9161B91F833845004F6B0E /* ATVResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVResponse.swift; sourceTree = "<group>"; };
+		1A9161BB1F83801F004F6B0E /* ATVEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATVEvent.swift; sourceTree = "<group>"; };
+		1A9161BD1F83824F004F6B0E /* ATVVernacularData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVVernacularData.swift; sourceTree = "<group>"; };
+		1A9161BF1F838290004F6B0E /* ATVContentImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVContentImage.swift; sourceTree = "<group>"; };
+		1A9161C11F838474004F6B0E /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		1AB0D89C1F8283DA000A20E6 /* AstroTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB0D89F1F8283DA000A20E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AB0D8A11F8283DA000A20E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +146,23 @@
 		1AB0D8BE1F8283DA000A20E6 /* AstroTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB0D8C21F8283DA000A20E6 /* AstroTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroTVUITests.swift; sourceTree = "<group>"; };
 		1AB0D8C41F8283DA000A20E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB0D8D41F828AF6000A20E6 /* ATVBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVBaseViewController.swift; sourceTree = "<group>"; };
+		1AB0D8D61F828B0B000A20E6 /* ATVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVView.swift; sourceTree = "<group>"; };
+		1AB0D8D81F828B2E000A20E6 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		1AB0D8DA1F828B3A000A20E6 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		1AB0D8DC1F828E14000A20E6 /* AstroTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AstroTV-Bridging-Header.h"; sourceTree = "<group>"; };
+		1AB0D8DD1F828E14000A20E6 /* UIView+UIViewShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewShadow.h"; sourceTree = "<group>"; };
+		1AB0D8DE1F828E14000A20E6 /* UIView+UIViewShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewShadow.m"; sourceTree = "<group>"; };
+		1AB0D8E01F8293D1000A20E6 /* ATVButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVButton.swift; sourceTree = "<group>"; };
+		1ACFED021F8298BD00160511 /* ATVChannelExtRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATVChannelExtRef.swift; sourceTree = "<group>"; };
+		1ACFED031F8298BD00160511 /* ATVLinearOttMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATVLinearOttMapping.swift; sourceTree = "<group>"; };
+		1ACFED041F8298BE00160511 /* ATVChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATVChannel.swift; sourceTree = "<group>"; };
+		1ACFED081F82998900160511 /* ATVDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVDefinitions.swift; sourceTree = "<group>"; };
+		1ACFED0A1F829AFE00160511 /* ATVBaseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVBaseEntity.swift; sourceTree = "<group>"; };
+		1ACFED0C1F829BD700160511 /* ATVJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVJSON.swift; sourceTree = "<group>"; };
+		1ACFED0E1F82A4C700160511 /* ATVNetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVNetworkUtils.swift; sourceTree = "<group>"; };
+		1ACFED121F82B22000160511 /* ATVChannelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVChannelListViewController.swift; sourceTree = "<group>"; };
+		1ACFED141F82B4C100160511 /* ATVLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +170,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8B18B91F855189001D5DDA /* AWSAuthCore.framework in Frameworks */,
+				1A8B18B21F855038001D5DDA /* AWSAuthUI.framework in Frameworks */,
+				1A8B18B31F855038001D5DDA /* AWSCognito.framework in Frameworks */,
+				1A8B18B41F855038001D5DDA /* AWSCognitoAuth.framework in Frameworks */,
+				1A33EAB81F854809000BCAA2 /* GoogleSignIn.framework in Frameworks */,
+				1A33EAB91F854809000BCAA2 /* GoogleSignInDependencies.framework in Frameworks */,
+				1A33EAC31F854AAD000BCAA2 /* Bolts.framework in Frameworks */,
+				1A33EAC71F854AAD000BCAA2 /* FBSDKLoginKit.framework in Frameworks */,
+				1A33EAC11F854AAD000BCAA2 /* GoogleSignInDependencies.framework in Frameworks */,
+				1A33EAB21F854545000BCAA2 /* Bolts.framework in Frameworks */,
+				1A33EAAF1F8541C0000BCAA2 /* FBSDKCoreKit.framework in Frameworks */,
+				1A33EAC51F854AAD000BCAA2 /* FBSDKCoreKit.framework in Frameworks */,
+				1A33EAB01F8541C0000BCAA2 /* FBSDKLoginKit.framework in Frameworks */,
+				1A33EAAB1F853B61000BCAA2 /* AWSS3.framework in Frameworks */,
+				1A33EAA71F853B4E000BCAA2 /* AWSCore.framework in Frameworks */,
+				1A33EABF1F854AAD000BCAA2 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +206,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1FDB761F85355000F474F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B18B81F855189001D5DDA /* AWSAuthCore.framework */,
+				1A8B18AF1F855038001D5DDA /* AWSAuthUI.framework */,
+				1A8B18B01F855038001D5DDA /* AWSCognito.framework */,
+				1A8B18B11F855038001D5DDA /* AWSCognitoAuth.framework */,
+				1A33EABB1F854825000BCAA2 /* FacebookSDKStrings.bundle */,
+				1A33EAB71F854809000BCAA2 /* GoogleSignIn.bundle */,
+				1A33EAB51F854809000BCAA2 /* GoogleSignIn.framework */,
+				1A33EAB61F854809000BCAA2 /* GoogleSignInDependencies.framework */,
+				1A33EAB11F854544000BCAA2 /* Bolts.framework */,
+				1A33EAAD1F8541BF000BCAA2 /* FBSDKCoreKit.framework */,
+				1A33EAAE1F8541BF000BCAA2 /* FBSDKLoginKit.framework */,
+				1A33EAA51F853B4E000BCAA2 /* AWSCore.framework */,
+				1A33EAA61F853B4E000BCAA2 /* AWSS3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5BB9601F839E1C00C3C98B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A5BB9611F839E3B00C3C98B /* ATVChannelTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1AB0D8931F8283DA000A20E6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +241,7 @@
 				1AB0D8B61F8283DA000A20E6 /* AstroTVTests */,
 				1AB0D8C11F8283DA000A20E6 /* AstroTVUITests */,
 				1AB0D89D1F8283DA000A20E6 /* Products */,
+				1A1FDB761F85355000F474F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +258,16 @@
 		1AB0D89E1F8283DA000A20E6 /* AstroTV */ = {
 			isa = PBXGroup;
 			children = (
+				1AB0D8D31F828A8D000A20E6 /* Storyboard */,
+				1AB0D8D21F828A75000A20E6 /* Base */,
+				1ACFED011F82989900160511 /* Entities */,
+				1AB0D8D11F828A67000A20E6 /* Extensions */,
+				1AB0D8D01F828A5C000A20E6 /* Utilities */,
+				1ACFED101F82B1D000160511 /* Views */,
+				1ACFED111F82B1E100160511 /* View Controllers */,
 				1AB0D89F1F8283DA000A20E6 /* AppDelegate.swift */,
 				1AB0D8A11F8283DA000A20E6 /* ViewController.swift */,
-				1AB0D8A31F8283DA000A20E6 /* Main.storyboard */,
 				1AB0D8A91F8283DA000A20E6 /* Assets.xcassets */,
-				1AB0D8AB1F8283DA000A20E6 /* LaunchScreen.storyboard */,
 				1AB0D8AE1F8283DA000A20E6 /* Info.plist */,
 				1AB0D8A61F8283DA000A20E6 /* AstroTV.xcdatamodeld */,
 			);
@@ -128,6 +292,87 @@
 			path = AstroTVUITests;
 			sourceTree = "<group>";
 		};
+		1AB0D8D01F828A5C000A20E6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1ACFED081F82998900160511 /* ATVDefinitions.swift */,
+				1ACFED0C1F829BD700160511 /* ATVJSON.swift */,
+				1ACFED0E1F82A4C700160511 /* ATVNetworkUtils.swift */,
+				1A9161B91F833845004F6B0E /* ATVResponse.swift */,
+				1A33EAB31F8546D5000BCAA2 /* GoogleService-Info.plist */,
+				1A8B18BD1F855764001D5DDA /* FacebookProvider.swift */,
+				1A8B18BF1F8563E8001D5DDA /* GoogleProvider.swift */,
+				1A8B18C11F85D7F4001D5DDA /* ATVFavoritesUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1AB0D8D11F828A67000A20E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0D8D81F828B2E000A20E6 /* UIViewExt.swift */,
+				1AB0D8DA1F828B3A000A20E6 /* StringExt.swift */,
+				1AB0D8DD1F828E14000A20E6 /* UIView+UIViewShadow.h */,
+				1AB0D8DE1F828E14000A20E6 /* UIView+UIViewShadow.m */,
+				1AB0D8DC1F828E14000A20E6 /* AstroTV-Bridging-Header.h */,
+				1A9161C11F838474004F6B0E /* DateExt.swift */,
+				1A5BB9631F83DBFC00C3C98B /* UIImageViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1AB0D8D21F828A75000A20E6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0D8D41F828AF6000A20E6 /* ATVBaseViewController.swift */,
+				1ACFED0A1F829AFE00160511 /* ATVBaseEntity.swift */,
+				1AB0D8D61F828B0B000A20E6 /* ATVView.swift */,
+				1AB0D8E01F8293D1000A20E6 /* ATVButton.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1AB0D8D31F828A8D000A20E6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0D8A31F8283DA000A20E6 /* Main.storyboard */,
+				1AB0D8AB1F8283DA000A20E6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1ACFED011F82989900160511 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1ACFED041F8298BE00160511 /* ATVChannel.swift */,
+				1ACFED021F8298BD00160511 /* ATVChannelExtRef.swift */,
+				1ACFED031F8298BD00160511 /* ATVLinearOttMapping.swift */,
+				1A9161BB1F83801F004F6B0E /* ATVEvent.swift */,
+				1A9161BD1F83824F004F6B0E /* ATVVernacularData.swift */,
+				1A9161BF1F838290004F6B0E /* ATVContentImage.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		1ACFED101F82B1D000160511 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1ACFED141F82B4C100160511 /* ATVLoadingView.swift */,
+				1A9161B71F82BEFE004F6B0E /* ATVLoadingView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ACFED111F82B1E100160511 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A5BB9601F839E1C00C3C98B /* Views */,
+				1ACFED121F82B22000160511 /* ATVChannelListViewController.swift */,
+				1A8B18BB1F8553A0001D5DDA /* ATVLoginViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +383,8 @@
 				1AB0D8981F8283DA000A20E6 /* Sources */,
 				1AB0D8991F8283DA000A20E6 /* Frameworks */,
 				1AB0D89A1F8283DA000A20E6 /* Resources */,
+				1A1FDB7F1F8535DB00F474F7 /* Embed Frameworks */,
+				1A1FDB801F8535EB00F474F7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -190,12 +437,14 @@
 		1AB0D8941F8283DA000A20E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ATV;
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Hung Nguyen Thanh";
 				TargetAttributes = {
 					1AB0D89B1F8283DA000A20E6 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1AB0D8B21F8283DA000A20E6 = {
@@ -235,9 +484,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8B18AD1F854CB6001D5DDA /* FacebookSDKStrings.bundle in Resources */,
+				1A8B18AE1F854CB6001D5DDA /* GoogleSignIn.bundle in Resources */,
 				1AB0D8AD1F8283DA000A20E6 /* LaunchScreen.storyboard in Resources */,
 				1AB0D8AA1F8283DA000A20E6 /* Assets.xcassets in Resources */,
+				1A33EAB41F8546D5000BCAA2 /* GoogleService-Info.plist in Resources */,
 				1AB0D8A51F8283DA000A20E6 /* Main.storyboard in Resources */,
+				1A9161B81F82BEFE004F6B0E /* ATVLoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +510,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A1FDB801F8535EB00F474F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1AB0D8981F8283DA000A20E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB0D8E11F8293D1000A20E6 /* ATVButton.swift in Sources */,
+				1ACFED051F8298BE00160511 /* ATVChannelExtRef.swift in Sources */,
+				1AB0D8D91F828B2E000A20E6 /* UIViewExt.swift in Sources */,
+				1ACFED061F8298BE00160511 /* ATVLinearOttMapping.swift in Sources */,
 				1AB0D8A21F8283DA000A20E6 /* ViewController.swift in Sources */,
+				1A5BB9641F83DBFC00C3C98B /* UIImageViewExt.swift in Sources */,
+				1ACFED151F82B4C100160511 /* ATVLoadingView.swift in Sources */,
+				1AB0D8D71F828B0B000A20E6 /* ATVView.swift in Sources */,
+				1A8B18BC1F8553A0001D5DDA /* ATVLoginViewController.swift in Sources */,
+				1ACFED131F82B22000160511 /* ATVChannelListViewController.swift in Sources */,
+				1A9161BE1F83824F004F6B0E /* ATVVernacularData.swift in Sources */,
+				1ACFED0F1F82A4C700160511 /* ATVNetworkUtils.swift in Sources */,
+				1A8B18C21F85D7F4001D5DDA /* ATVFavoritesUtils.swift in Sources */,
+				1AB0D8DF1F828E14000A20E6 /* UIView+UIViewShadow.m in Sources */,
+				1A9161BA1F833845004F6B0E /* ATVResponse.swift in Sources */,
+				1ACFED091F82998900160511 /* ATVDefinitions.swift in Sources */,
+				1A8B18BE1F855764001D5DDA /* FacebookProvider.swift in Sources */,
+				1AB0D8DB1F828B3A000A20E6 /* StringExt.swift in Sources */,
 				1AB0D8A01F8283DA000A20E6 /* AppDelegate.swift in Sources */,
 				1AB0D8A81F8283DA000A20E6 /* AstroTV.xcdatamodeld in Sources */,
+				1ACFED0D1F829BD700160511 /* ATVJSON.swift in Sources */,
+				1ACFED0B1F829AFE00160511 /* ATVBaseEntity.swift in Sources */,
+				1A9161C21F838474004F6B0E /* DateExt.swift in Sources */,
+				1AB0D8D51F828AF6000A20E6 /* ATVBaseViewController.swift in Sources */,
+				1A9161C01F838290004F6B0E /* ATVContentImage.swift in Sources */,
+				1A9161BC1F838020004F6B0E /* ATVEvent.swift in Sources */,
+				1ACFED071F8298BE00160511 /* ATVChannel.swift in Sources */,
+				1A5BB9621F839E3B00C3C98B /* ATVChannelTableViewCell.swift in Sources */,
+				1A8B18C01F8563E8001D5DDA /* GoogleProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,14 +725,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W793QK84V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AstroTV/frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AstroTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.h2mobiledev.AstroTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AstroTV/Extensions/AstroTV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -445,14 +752,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W793QK84V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AstroTV/frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AstroTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.h2mobiledev.AstroTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AstroTV/Extensions/AstroTV-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s armv7";
 			};
 			name = Release;
 		};
