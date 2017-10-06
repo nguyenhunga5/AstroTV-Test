@@ -9,6 +9,7 @@
 import UIKit
 import FBSDKLoginKit
 import GoogleSignIn
+import AWSCognito
 
 class ATVChannelListViewController: ATVBaseViewController {
 
@@ -261,6 +262,12 @@ class ATVChannelListViewController: ATVBaseViewController {
         
         FBSDKLoginManager().logOut()
         GIDSignIn.sharedInstance().signOut()
+        
+        if let credentialsProvider = AppDelegate.sharedInstance.credentialsProvider {
+            
+            credentialsProvider.clearCredentials()
+            credentialsProvider.clearKeychain()
+        }
         
         self.dismiss(animated: true, completion: nil)
     }

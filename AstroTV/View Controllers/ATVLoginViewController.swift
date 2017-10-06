@@ -34,11 +34,7 @@ class ATVLoginViewController: ATVBaseViewController {
         
         if FBSDKAccessToken.current() != nil  {
             
-            let credentialsProvider = AWSCognitoCredentialsProvider(regionType: AWSRegionType.APSoutheast1, identityPoolId: kIdentityPoolId, identityProviderManager: FacebookProvider())
-            let configuration = AWSServiceConfiguration(region:.APSoutheast1, credentialsProvider:credentialsProvider)
-            
-            AWSServiceManager.default().defaultServiceConfiguration = configuration
-            
+            self.createCognitoIdentity(isFacebook: true)
             self.performSegue(withIdentifier: kShowListSegue, sender: self)
         }
 
@@ -60,6 +56,25 @@ class ATVLoginViewController: ATVBaseViewController {
     }
     */
 
+    func createCognitoIdentity(isFacebook: Bool) {
+        
+        let provider: AWSIdentityProviderManager
+        if isFacebook {
+            
+            provider = FacebookProvider()
+        } else {
+            
+            provider = GoogleProvider()
+        }
+        
+        let credentialsProvider = AWSCognitoCredentialsProvider(regionType: AWSRegionType.APSoutheast1, identityPoolId: kIdentityPoolId, identityProviderManager: provider)
+        
+        let configuration = AWSServiceConfiguration(region:.APSoutheast1, credentialsProvider:credentialsProvider)
+        
+        AWSServiceManager.default().defaultServiceConfiguration = configuration
+        
+        AppDelegate.sharedInstance.credentialsProvider = credentialsProvider
+    }
     
 }
 
@@ -83,10 +98,7 @@ extension ATVLoginViewController: GIDSignInDelegate {
         
         if let _ = user {
             
-            let credentialsProvider = AWSCognitoCredentialsProvider(regionType: AWSRegionType.APSoutheast1, identityPoolId: kIdentityPoolId, identityProviderManager: GoogleProvider())
-            let configuration = AWSServiceConfiguration(region:.APSoutheast1, credentialsProvider:credentialsProvider)
-            
-            AWSServiceManager.default().defaultServiceConfiguration = configuration
+            self.createCognitoIdentity(isFacebook: false)
             self.performSegue(withIdentifier: kShowListSegue, sender: self)
         }
         
@@ -104,12 +116,7 @@ extension ATVLoginViewController: FBSDKLoginButtonDelegate {
         
         if !result.isCancelled {
             
-            let credentialsProvider = AWSCognitoCredentialsProvider(regionType: AWSRegionType.APSoutheast1, identityPoolId: kIdentityPoolId, identityProviderManager: FacebookProvider())
-            let configuration = AWSServiceConfiguration(region:.APSoutheast1, credentialsProvider:credentialsProvider)
-            let cognitoId = credentialsProvider.identityId
-            
-            AWSServiceManager.default().defaultServiceConfiguration = configuration
-            
+            self.createCognitoIdentity(isFacebook: true)
             self.performSegue(withIdentifier: kShowListSegue, sender: self)
         }
     }
